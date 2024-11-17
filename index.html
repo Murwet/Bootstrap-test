@@ -11,31 +11,6 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-
-      <div class="col-2 bg-warning">Jag tar upp 6st</div>
-      <div class="col-8 bg-success">Jag tar upp 6st</div>
-      <div class="col-2 bg-warning">Jag tar upp 6st</div>
-
-      <div class="col-4 bg-warning">Jag tar upp 6st</div>
-      <div class="col-4 bg-success">Jag tar upp 6st</div>
-      <div class="col-4 bg-warning">Jag tar upp 6st</div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-11 bg-success">Jag tar upp 11 enheter</div>
-      <div class="col bg-info">A</div> <!-- Här kan du låta col vara utan siffra -->
-      <div class="col bg-warning">A</div>
-    </div>
-
-
-
-
-  </div>
-
-  </div>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -88,6 +63,31 @@
   </div>
 
 
+  <div class="container">
+    <div class="row">
+
+      <div class="col-2 bg-warning">Jag tar upp 6st</div>
+      <div class="col-8 bg-success">Jag tar upp 6st</div>
+      <div class="col-2 bg-warning">Jag tar upp 6st</div>
+
+      <div class="col-4 bg-warning">Jag tar upp 6st</div>
+      <div class="col-4 bg-success">Jag tar upp 6st</div>
+      <div class="col-4 bg-warning">Jag tar upp 6st</div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-11 bg-success">Jag tar upp 11 enheter</div>
+      <div class="col bg-info">A</div> <!-- Här kan du låta col vara utan siffra -->
+      <div class="col bg-warning">A</div>
+    </div>
+
+
+
+
+  </div>
+
+  </div>
 
 
 
@@ -136,14 +136,24 @@
 
 
 
-<div class="row align-items-center" style="padding-bottom: 100px;">
-<div class="col bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a error sint.</div>
-<div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a error sint.</div>
-<div class="col bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a error sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, corporis nisi! Sapiente, dolorem culpa sequi, veniam, mollitia voluptas perferendis animi in expedita nam libero laborum similique autem dolorum ea. Odit?</div>
-<div class="col bg-warning align-self-end ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a error sint.</div>
+    <div class="row align-items-center" style="padding-bottom: 100px;">
+      <div class="col bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero
+        doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a
+        error sint.</div>
+      <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit libero
+        doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas iure a
+        error sint.</div>
+      <div class="col bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel suscipit
+        libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore ullam ab quas
+        iure a error sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, corporis nisi!
+        Sapiente, dolorem culpa sequi, veniam, mollitia voluptas perferendis animi in expedita nam libero laborum
+        similique autem dolorum ea. Odit?</div>
+      <div class="col bg-warning align-self-end ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        vel suscipit libero doloremque saepe itaque pariatur mollitia dolore delectus expedita. Beatae eligendi labore
+        ullam ab quas iure a error sint.</div>
 
 
-</div>
+    </div>
 
 
 
@@ -163,32 +173,51 @@
 
   <div class="container">
 
-<h2 class="display-2">Forms</h2>
-<form action="#nowere" class="mb-3">
-<div class="form-group">
-<label for="email">Email</label>
-<input type="email" id="email" placeholder="Email" class="form-control">
-</div>
+    <h2 class="display-2">Forms</h2>
+    <form action="#nowere" class="mb-3">
+      <div class="row g-1">
+        <div class="form-group col-lg-6">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" class="form-control">
+        </div>
 
-<div class="form-group">
-<label for="password">Password</label>
-<input type="password" placeholder="password" id="password" class="form-control">
-</div>
+        <div class="form-group col-lg-6">
+          <label for="password">Password</label>
+          <input type="password" placeholder="password" id="password" class="form-control">
+        </div>
+      </div>
 
-<div class="form-group">
-<label for="state">State</label>
-<select name="state" id="state" class="form-control">
-  <option value="stockholm1">stockholm1</option>
-  <option value="stockholm2">stockholm2</option>
-  <option value="stockholm3">stockholm3</option>
-</select>
+      <div class="row">
 
+        <div class="col-md-6 form-group">
+          <label for="Street">Street Name</label>
+          <input type="text" placeholder="Street Name" id="Street-Name" class="form-control">
+        </div>
 
-</div>
+        <div class="col-md-4 form-group">
+          <label for="state">State</label>
+          <select name="state" id="state" class="form-control">
+            <option value="stockholm1">Stockholm 1</option>
+            <option value="stockholm2">Stockholm 2</option>
+            <option value="stockholm3">Stockholm 3</option>
+          </select>
+        </div>
 
+        <div class="col-md-2 form-group">
+          <label for="Street">Zip code</label>
+          <input type="number" placeholder="Zip code" id="Zip-code" class="form-control">
+        </div>
 
+      </div>
 
-</form>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+        <label class="form-check-label" for="flexCheck">
+          Normal checkbox
+        </label>
+      </div>
+
+    </form>
 
 
   </div>
